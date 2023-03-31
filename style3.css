@@ -1,0 +1,38 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+h1 { color: blue; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+
+h2 { color: black; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }}
+
+body {
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.red {
+	color: red;
+}
+
+.bigfont {
+	font-size: 36px;
+}
+
+.italic {
+	font-family: italic;
+	font-size: 22px;
+	color: green;
+}
+
+#spstyle {
+	width:40%;
+	border: 2px solid red;
+	background-color: yellow;
+}
+
+
