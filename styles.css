@@ -4,6 +4,7 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 60px; fo
 
 body {
 	background-image: url(https://cdn.pixabay.com/photo/2014/02/16/06/46/abstract-267046_1280.png);
+	background-size: cover;
 	font-family: Arial;
 	font-size: 24px;
 	font-family: white-space;
