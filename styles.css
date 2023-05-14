@@ -10,12 +10,12 @@ body {
 	font-size: 24px;
 	font-family: white-space;
 }
+
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
- max-width:50%;
-height:auto;
+  width: 150px;
 }
 
 .center {
