@@ -9,6 +9,7 @@ body {
 	font-family: Arial;
 	font-size: 24px;
 	font-family: white-space;
+ 
 }
 
 img {
@@ -39,3 +40,8 @@ img {
 
 }
 
+.center {
+  max-width  margin: auto;
+  background: white;
+  padding: 10px;
+}
