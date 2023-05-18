@@ -26,11 +26,14 @@ img {
 }
 
 
+
 .button {
   transition-duration: 0.4s;
+  font-size: 36px
+	  
 }
 
 .button:hover {
-  background-color: navy;
-  color: white;
+  background-color: white;
+  color: navy;
 }
