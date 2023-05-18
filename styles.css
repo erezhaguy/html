@@ -29,7 +29,7 @@ img {
 
 .button {
   transition-duration: 0.4s;
-  padding: 25%;
+  padding: 10%;
   border-radius: 4px;
   font-size: 36px;
   cursor: grab;
@@ -38,6 +38,6 @@ img {
 
 
 .button:hover {
-  background-color: black;
+  background-color: white;
   color: navy;
 }
