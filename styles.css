@@ -30,7 +30,6 @@ img {
 .button {
   background-color: navy;
   transition-duration: 0.4s;
-  padding: 10%;
   border-radius: 4px;
   font-size: 36px;
   cursor: grab;
