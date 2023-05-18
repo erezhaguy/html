@@ -29,15 +29,15 @@ img {
 
 .button {
   transition-duration: 0.4s;
-  padding: 10px 20px;
+  padding: 25%;
   border-radius: 4px;
   font-size: 36px;
-  cursor: alias;
+  cursor: cursor: grab;
 }
 	  
 
 
 .button:hover {
-  background-color: navy;
-  color: white;
+  background-color: black;
+  color: navy;
 }
