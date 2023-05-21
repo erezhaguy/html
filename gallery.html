@@ -61,13 +61,51 @@ div.desc {
   display: table;
   clear: both;
 }
+
+.animated_rainbow_1 {
+    font-size: 50px;
+    font-family: Arial Black, Gadget, sans-serif;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+@keyframes animatedBackground_a {
+    0% { background-position: 0 0 }
+    100% { background-position: -500px 0 }
+}
+
+.button {
+	 
+  background-color: blue; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 15%;
+
+}
+
+.button:hover {	
+  background-color: #40E0D0;
+  color: black;
+}
 </style>
 </head>
 <body>
 
-<h2>My Private Gallery</h2>
+<h2 class="animated_rainbow_1">My Private Gallery</h2>
 
 
+
+<br>
+<br>
 
 <div class="responsive">
   <div class="gallery">
@@ -88,14 +126,7 @@ div.desc {
   </div>
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="pic7.jpg">
-      <img src="pic7.jpg" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
+
 
 <div class="responsive">
   <div class="gallery">
@@ -104,13 +135,43 @@ div.desc {
     </a>
     <div class="desc"></div>
   </div>
-</div>
 
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pic8.jpg">
+      <img src="pic8.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pic7.jpg">
+      <img src="pic7.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="piceggcorona.jpg">
+      <img src="piceggcorona.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+</div>
 <div class="clearfix"></div>
 
 <div style="padding:6px;">
   
 </div>
 
+
+<br>
+<br>
+<a target="_blank" href="index.html" class="button"><b>Home</b></a>
 </body>
 </html>
