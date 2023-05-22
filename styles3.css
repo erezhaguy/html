@@ -67,3 +67,34 @@ img {
   background-color: #40E0D0;
   color: black;
 }
+
+.contact-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for form fields and labels */
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styles for the submit button */
+.contact-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
